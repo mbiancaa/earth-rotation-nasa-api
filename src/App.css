@@ -1,0 +1,63 @@
+#root, body {
+  background: #000;
+}
+
+p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.Container {
+  position: relative;
+  width: 100dvw;
+  height: 100dvh;
+  max-height: 100dvh;
+  max-width: 100dvw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.ImageContainer {
+  position: absolute;
+  margin: auto;
+  max-width: 80dvw;
+  max-height: 80dvh;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.Image {
+  max-width: 70dvw;
+  max-height: 70dvh;
+}
+
+.ImageContainer.show {
+  display: flex;
+}
+
+@media (max-width: 800px) {
+  p {
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .ImageContainer, .Image {
+    max-width: 90dvw;
+    max-height: 90dvh;
+  }
+}
+
+.NASA-logo {
+    top: 20px;
+    position: absolute;
+    width: 10vh;
+    right: 20px;
+    z-index: 9;
+}

@@ -1,0 +1,25 @@
+{
+  "short_name": "Earth Rotation",
+  "name": "Earth Rotation within a day with NASA API",
+  "icons": [
+    {
+      "src": "https://api.nasa.gov/EPIC/archive/natural/2024/04/12/png/epic_1b_20240412182736.png?api_key=DEMO_KEY",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "https://api.nasa.gov/EPIC/archive/natural/2024/04/12/png/epic_1b_20240412182736.png?api_key=DEMO_KEY",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "https://api.nasa.gov/EPIC/archive/natural/2024/04/12/png/epic_1b_20240412182736.png?api_key=DEMO_KEY",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#000000"
+}
