@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/earth-rotation-nasa-api/static/css/main.711ceac0.css",
+    "main.js": "/earth-rotation-nasa-api/static/js/main.b51bc1d8.js",
+    "index.html": "/earth-rotation-nasa-api/index.html",
+    "main.711ceac0.css.map": "/earth-rotation-nasa-api/static/css/main.711ceac0.css.map",
+    "main.b51bc1d8.js.map": "/earth-rotation-nasa-api/static/js/main.b51bc1d8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.711ceac0.css",
+    "static/js/main.b51bc1d8.js"
+  ]
+}
